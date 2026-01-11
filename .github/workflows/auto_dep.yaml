@@ -33,6 +33,7 @@ jobs:
             cd "$APP_DIR"
             cat > .env << 'ENV_EOF'
             DOMAIN_NAME=${{ secrets.DOMAIN_NAME }}   
+            SUBDOMAIN=${{secrets.SUBDOMAIN}}
             GENERIC_TIMEZONE=${{ secrets.GENERIC_TIMEZONE }}
             SSL_EMAIL=${{ secrets.SSL_EMAIL }}  
             POSTGRES_USER=${{ secrets.POSTGRES_USER }}  
