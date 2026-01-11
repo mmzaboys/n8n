@@ -1,4 +1,4 @@
-name: Deploy to Hams vm
+name: Deploy to Hams vms
 on: 
   push:
     branches: [Main]
